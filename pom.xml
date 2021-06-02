@@ -426,6 +426,12 @@
 				   <format>html</format>
 				   <format>xml</format>
 			       </formats>
+			       <exclusions>
+			       	<exclusion>
+			       		<groupdId>com.sun</groupId>
+			       		<artifactId>tools</artifactId>
+			       	</exclusion>
+			       </exclusions>
 			       <reportSets>
 				   <reportSet>
 				       <reports>

@@ -428,7 +428,7 @@
 			       </formats>
 			       <exclusions>
 			       	<exclusion>
-                       <groupdId>com.sun</groupId>
+                       <groupId>com.sun</groupId>
                        <artifactId>tools</artifactId>
 			       	</exclusion>
 			       </exclusions>

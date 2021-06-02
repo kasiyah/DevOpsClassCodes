@@ -216,6 +216,30 @@
 
         </profile>
         <profile>
+
+        <profiles>
+    <profile>
+        <id>osx_profile</id>
+        <activation>
+            <activeByDefault>false</activeByDefault>
+            <os>
+                <family>mac</family>
+            </os>
+        </activation>
+        <properties>
+            <toolsjar>${java.home}/../Classes/classes.jar</toolsjar>
+        </properties>
+        <dependencies>
+            <dependency>
+                <groupId>com.sun</groupId>
+                <artifactId>tools</artifactId>
+                <version>1.6.0</version>
+                <scope>system</scope>
+                <systemPath>${toolsjar}</systemPath>
+            </dependency>
+        </dependencies>
+    </profile>
+</profiles>
             <id>metrics</id>
             <build>
                 <plugins>

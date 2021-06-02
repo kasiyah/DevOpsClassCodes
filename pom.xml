@@ -230,7 +230,7 @@
                     <dependency>
                         <groupId>com.sun</groupId>
                         <artifactId>tools</artifactId>
-                        <version>1.6.0</version>
+                        <version>1.0</version>
                         <scope>system</scope>
                         <systemPath>${toolsjar}</systemPath>
                     </dependency>

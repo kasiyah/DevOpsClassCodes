@@ -428,8 +428,8 @@
 			       </formats>
 			       <exclusions>
 			       	<exclusion>
-			       		<groupdId>com.sun</groupId>
-			       		<artifactId>tools</artifactId>
+                       <groupdId>com.sun</groupId>
+                       <artifactId>tools</artifactId>
 			       	</exclusion>
 			       </exclusions>
 			       <reportSets>

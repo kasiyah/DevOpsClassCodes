@@ -217,7 +217,7 @@
         </profile>
         <profile>
 
-        <profiles>
+        
     <profile>
         <id>osx_profile</id>
         <activation>
@@ -239,7 +239,8 @@
             </dependency>
         </dependencies>
     </profile>
-</profiles>
+
+
             <id>metrics</id>
             <build>
                 <plugins>
